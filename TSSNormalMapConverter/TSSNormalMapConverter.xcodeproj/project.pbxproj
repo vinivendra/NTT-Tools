@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CBB0F32831D99E001D83A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBB0F22831D99E001D83A5 /* AppDelegate.swift */; };
+		24CBB0F52831D99E001D83A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBB0F42831D99E001D83A5 /* ViewController.swift */; };
+		24CBB0F72831D9A0001D83A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CBB0F62831D9A0001D83A5 /* Assets.xcassets */; };
+		24CBB0FA2831D9A0001D83A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CBB0F82831D9A0001D83A5 /* Main.storyboard */; };
+		24CBB1052831D9A1001D83A5 /* TSSNormalMapConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBB1042831D9A1001D83A5 /* TSSNormalMapConverterTests.swift */; };
+		24CBB10F2831D9A1001D83A5 /* TSSNormalMapConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBB10E2831D9A1001D83A5 /* TSSNormalMapConverterUITests.swift */; };
+		24CBB1112831D9A1001D83A5 /* TSSNormalMapConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBB1102831D9A1001D83A5 /* TSSNormalMapConverterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CBB1012831D9A1001D83A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CBB0E72831D99E001D83A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CBB0EE2831D99E001D83A5;
+			remoteInfo = TSSNormalMapConverter;
+		};
+		24CBB10B2831D9A1001D83A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CBB0E72831D99E001D83A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CBB0EE2831D99E001D83A5;
+			remoteInfo = TSSNormalMapConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24CBB0EF2831D99E001D83A5 /* TSSNormalMapConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSSNormalMapConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CBB0F22831D99E001D83A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24CBB0F42831D99E001D83A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24CBB0F62831D9A0001D83A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CBB0F92831D9A0001D83A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24CBB0FB2831D9A0001D83A5 /* TSSNormalMapConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TSSNormalMapConverter.entitlements; sourceTree = "<group>"; };
+		24CBB1002831D9A1001D83A5 /* TSSNormalMapConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSSNormalMapConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CBB1042831D9A1001D83A5 /* TSSNormalMapConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSNormalMapConverterTests.swift; sourceTree = "<group>"; };
+		24CBB10A2831D9A1001D83A5 /* TSSNormalMapConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSSNormalMapConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CBB10E2831D9A1001D83A5 /* TSSNormalMapConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSNormalMapConverterUITests.swift; sourceTree = "<group>"; };
+		24CBB1102831D9A1001D83A5 /* TSSNormalMapConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSNormalMapConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CBB0EC2831D99E001D83A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBB0FD2831D9A1001D83A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBB1072831D9A1001D83A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CBB0E62831D99E001D83A5 = {
+			isa = PBXGroup;
+			children = (
+				24CBB0F12831D99E001D83A5 /* TSSNormalMapConverter */,
+				24CBB1032831D9A1001D83A5 /* TSSNormalMapConverterTests */,
+				24CBB10D2831D9A1001D83A5 /* TSSNormalMapConverterUITests */,
+				24CBB0F02831D99E001D83A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24CBB0F02831D99E001D83A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CBB0EF2831D99E001D83A5 /* TSSNormalMapConverter.app */,
+				24CBB1002831D9A1001D83A5 /* TSSNormalMapConverterTests.xctest */,
+				24CBB10A2831D9A1001D83A5 /* TSSNormalMapConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CBB0F12831D99E001D83A5 /* TSSNormalMapConverter */ = {
+			isa = PBXGroup;
+			children = (
+				24CBB0F22831D99E001D83A5 /* AppDelegate.swift */,
+				24CBB0F42831D99E001D83A5 /* ViewController.swift */,
+				24CBB0F62831D9A0001D83A5 /* Assets.xcassets */,
+				24CBB0F82831D9A0001D83A5 /* Main.storyboard */,
+				24CBB0FB2831D9A0001D83A5 /* TSSNormalMapConverter.entitlements */,
+			);
+			path = TSSNormalMapConverter;
+			sourceTree = "<group>";
+		};
+		24CBB1032831D9A1001D83A5 /* TSSNormalMapConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				24CBB1042831D9A1001D83A5 /* TSSNormalMapConverterTests.swift */,
+			);
+			path = TSSNormalMapConverterTests;
+			sourceTree = "<group>";
+		};
+		24CBB10D2831D9A1001D83A5 /* TSSNormalMapConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24CBB10E2831D9A1001D83A5 /* TSSNormalMapConverterUITests.swift */,
+				24CBB1102831D9A1001D83A5 /* TSSNormalMapConverterUITestsLaunchTests.swift */,
+			);
+			path = TSSNormalMapConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CBB0EE2831D99E001D83A5 /* TSSNormalMapConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CBB1142831D9A1001D83A5 /* Build configuration list for PBXNativeTarget "TSSNormalMapConverter" */;
+			buildPhases = (
+				24CBB0EB2831D99E001D83A5 /* Sources */,
+				24CBB0EC2831D99E001D83A5 /* Frameworks */,
+				24CBB0ED2831D99E001D83A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSSNormalMapConverter;
+			productName = TSSNormalMapConverter;
+			productReference = 24CBB0EF2831D99E001D83A5 /* TSSNormalMapConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24CBB0FF2831D9A1001D83A5 /* TSSNormalMapConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CBB1172831D9A1001D83A5 /* Build configuration list for PBXNativeTarget "TSSNormalMapConverterTests" */;
+			buildPhases = (
+				24CBB0FC2831D9A1001D83A5 /* Sources */,
+				24CBB0FD2831D9A1001D83A5 /* Frameworks */,
+				24CBB0FE2831D9A1001D83A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CBB1022831D9A1001D83A5 /* PBXTargetDependency */,
+			);
+			name = TSSNormalMapConverterTests;
+			productName = TSSNormalMapConverterTests;
+			productReference = 24CBB1002831D9A1001D83A5 /* TSSNormalMapConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24CBB1092831D9A1001D83A5 /* TSSNormalMapConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CBB11A2831D9A1001D83A5 /* Build configuration list for PBXNativeTarget "TSSNormalMapConverterUITests" */;
+			buildPhases = (
+				24CBB1062831D9A1001D83A5 /* Sources */,
+				24CBB1072831D9A1001D83A5 /* Frameworks */,
+				24CBB1082831D9A1001D83A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CBB10C2831D9A1001D83A5 /* PBXTargetDependency */,
+			);
+			name = TSSNormalMapConverterUITests;
+			productName = TSSNormalMapConverterUITests;
+			productReference = 24CBB10A2831D9A1001D83A5 /* TSSNormalMapConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CBB0E72831D99E001D83A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					24CBB0EE2831D99E001D83A5 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					24CBB0FF2831D9A1001D83A5 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 24CBB0EE2831D99E001D83A5;
+					};
+					24CBB1092831D9A1001D83A5 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 24CBB0EE2831D99E001D83A5;
+					};
+				};
+			};
+			buildConfigurationList = 24CBB0EA2831D99E001D83A5 /* Build configuration list for PBXProject "TSSNormalMapConverter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CBB0E62831D99E001D83A5;
+			productRefGroup = 24CBB0F02831D99E001D83A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CBB0EE2831D99E001D83A5 /* TSSNormalMapConverter */,
+				24CBB0FF2831D9A1001D83A5 /* TSSNormalMapConverterTests */,
+				24CBB1092831D9A1001D83A5 /* TSSNormalMapConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CBB0ED2831D99E001D83A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CBB0F72831D9A0001D83A5 /* Assets.xcassets in Resources */,
+				24CBB0FA2831D9A0001D83A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBB0FE2831D9A1001D83A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBB1082831D9A1001D83A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CBB0EB2831D99E001D83A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CBB0F52831D99E001D83A5 /* ViewController.swift in Sources */,
+				24CBB0F32831D99E001D83A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBB0FC2831D9A1001D83A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CBB1052831D9A1001D83A5 /* TSSNormalMapConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CBB1062831D9A1001D83A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CBB1112831D9A1001D83A5 /* TSSNormalMapConverterUITestsLaunchTests.swift in Sources */,
+				24CBB10F2831D9A1001D83A5 /* TSSNormalMapConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CBB1022831D9A1001D83A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CBB0EE2831D99E001D83A5 /* TSSNormalMapConverter */;
+			targetProxy = 24CBB1012831D9A1001D83A5 /* PBXContainerItemProxy */;
+		};
+		24CBB10C2831D9A1001D83A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CBB0EE2831D99E001D83A5 /* TSSNormalMapConverter */;
+			targetProxy = 24CBB10B2831D9A1001D83A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24CBB0F82831D9A0001D83A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CBB0F92831D9A0001D83A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24CBB1122831D9A1001D83A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24CBB1132831D9A1001D83A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		24CBB1152831D9A1001D83A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TSSNormalMapConverter/TSSNormalMapConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHT774898M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vinivendra.TSSNormalMapConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		24CBB1162831D9A1001D83A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TSSNormalMapConverter/TSSNormalMapConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHT774898M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vinivendra.TSSNormalMapConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		24CBB1182831D9A1001D83A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHT774898M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vinivendra.TSSNormalMapConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSSNormalMapConverter.app/Contents/MacOS/TSSNormalMapConverter";
+			};
+			name = Debug;
+		};
+		24CBB1192831D9A1001D83A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHT774898M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vinivendra.TSSNormalMapConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSSNormalMapConverter.app/Contents/MacOS/TSSNormalMapConverter";
+			};
+			name = Release;
+		};
+		24CBB11B2831D9A1001D83A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHT774898M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vinivendra.TSSNormalMapConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TSSNormalMapConverter;
+			};
+			name = Debug;
+		};
+		24CBB11C2831D9A1001D83A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHT774898M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vinivendra.TSSNormalMapConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TSSNormalMapConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CBB0EA2831D99E001D83A5 /* Build configuration list for PBXProject "TSSNormalMapConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBB1122831D9A1001D83A5 /* Debug */,
+				24CBB1132831D9A1001D83A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CBB1142831D9A1001D83A5 /* Build configuration list for PBXNativeTarget "TSSNormalMapConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBB1152831D9A1001D83A5 /* Debug */,
+				24CBB1162831D9A1001D83A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CBB1172831D9A1001D83A5 /* Build configuration list for PBXNativeTarget "TSSNormalMapConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBB1182831D9A1001D83A5 /* Debug */,
+				24CBB1192831D9A1001D83A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CBB11A2831D9A1001D83A5 /* Build configuration list for PBXNativeTarget "TSSNormalMapConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CBB11B2831D9A1001D83A5 /* Debug */,
+				24CBB11C2831D9A1001D83A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CBB0E72831D99E001D83A5 /* Project object */;
+}
